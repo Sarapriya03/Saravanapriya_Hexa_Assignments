@@ -61,5 +61,40 @@ WHERE CustomerID NOT IN (1,3,5,7);
 
 SELECT * FROM Customers
 
+SELECT 
+Orders.OrderID,
+Orders.OrderDate,
+Customers.FirstName,
+Customers.LastName
+FROM Orders
+JOIN Customers ON Orders.CustomerID = Customers.CustomerID;
+
+UPDATE Orders
+SET TotalAmount = (
+SELECT SUM(od.Quantity * p.Price)
+FROM OrderDetails od
+JOIN Products p ON od.ProductID = p.ProductID
+WHERE od.OrderID = Orders.OrderID
+)
+
+SELECT * FROM Orders
+SELECT * FROM OrderDetails
+
+DECLARE @CustomerID INT = 4;
+DELETE FROM OrderDetails
+WHERE OrderID IN (
+SELECT OrderID FROM Orders WHERE CustomerID = @CustomerID
+);
+DELETE FROM Orders
+WHERE CustomerID = @CustomerID;
+
+UPDATE Customers
+SET OrderCount = (
+SELECT COUNT(*)
+FROM Orders
+WHERE Orders.CustomerID = Customers.CustomerID
+);
+
+
 
 
