@@ -9,6 +9,8 @@ public class OrderManager
 {
     private List<Orders> orders = new List<Orders>();
 
+    public decimal TotalAmount { get; internal set; }
+
     public void AddOrder(Orders order) => orders.Add(order);
 
     public void UpdateOrderStatus(int orderId, string newStatus)

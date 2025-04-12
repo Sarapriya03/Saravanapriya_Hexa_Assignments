@@ -9,6 +9,8 @@ public class Payment
     public int OrderID { get; set; }
     public decimal Amount { get; set; }
     public string Status { get; set; }
+    public string? PaymentMethod { get; internal set; }
+    public DateTime PaymentDate { get; internal set; }
 }
 
 public class PaymentManager

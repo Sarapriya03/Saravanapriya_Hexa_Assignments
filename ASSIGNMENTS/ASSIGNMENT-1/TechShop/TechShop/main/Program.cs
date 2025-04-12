@@ -9,15 +9,16 @@ namespace TechShop
     {
         static void Main(string[] args)
         {
-            // Creating instances of services
             var productService = new ProductService();
             var customerService = new CustomerService();
             var orderService = new OrdersService();
+            var reportService = new ReportService(orderService);
             var inventoryService = new InventoryService();
+            var paymentService = new PaymentService();
+            var searchService = new SearchService();
 
             Console.WriteLine("Welcome to TechShop!");
 
-            // Main menu loop
             while (true)
             {
                 Console.Clear();
@@ -29,48 +30,33 @@ namespace TechShop
                 Console.WriteLine("5. View Orders");
                 Console.WriteLine("6. Add Inventory");
                 Console.WriteLine("7. View Inventory");
-                Console.WriteLine("8. Exit");
+                Console.WriteLine("8. Sales Report");
+                Console.WriteLine("9. Update Customer Info");
+                Console.WriteLine("10. Process Payment");
+                Console.WriteLine("11. Search Products");
+                Console.WriteLine("12. Exit");
                 Console.Write("Please select an option: ");
 
                 string choice = Console.ReadLine();
 
                 switch (choice)
                 {
-                    case "1":
-                        AddProduct(productService);
-                        break;
-
-                    case "2":
-                        ViewProducts(productService);
-                        break;
-
-                    case "3":
-                        AddCustomer(customerService);
-                        break;
-
-                    case "4":
-                        PlaceOrder(orderService);
-                        break;
-
-                    case "5":
-                        ViewOrders(orderService);
-                        break;
-
-                    case "6":
-                        AddInventory(inventoryService);
-                        break;
-
-                    case "7":
-                        ViewInventory(inventoryService);
-                        break;
-
-                    case "8":
+                    case "1": AddProduct(productService); break;
+                    case "2": ViewProducts(productService); break;
+                    case "3": AddCustomer(customerService); break;
+                    case "4": PlaceOrder(orderService); break;
+                    case "5": ViewOrders(orderService); break;
+                    case "6": AddInventory(inventoryService); break;
+                    case "7": ViewInventory(inventoryService); break;
+                    case "8": GenerateSalesReport(reportService); break;
+                    case "9": UpdateCustomerInfo(customerService); break;
+                    case "10": ProcessPayment(paymentService); break;
+                    case "11": SearchProducts(searchService); break;
+                    case "12":
                         Console.WriteLine("Goodbye!");
                         return;
-
                     default:
                         Console.WriteLine("Invalid option. Please try again.");
-                        Console.ReadLine();
                         break;
                 }
             }
@@ -98,7 +84,7 @@ namespace TechShop
 
             productService.AddProduct(product);
             Console.WriteLine("Product added successfully!");
-            Console.ReadLine();
+            WaitForKeyPress();
         }
 
         static void ViewProducts(ProductService productService)
@@ -114,7 +100,7 @@ namespace TechShop
                     $"Times Ordered: {product.No_Of_Times_Ordered}"
                 );
             }
-            Console.ReadLine();
+            WaitForKeyPress();
         }
 
         static void AddCustomer(CustomerService customerService)
@@ -135,7 +121,7 @@ namespace TechShop
 
             customerService.AddCustomer(customer);
             Console.WriteLine("Customer added successfully!");
-            Console.ReadLine();
+            WaitForKeyPress();
         }
 
         static void PlaceOrder(OrdersService orderService)
@@ -159,7 +145,7 @@ namespace TechShop
 
             orderService.AddOrder(order);
             Console.WriteLine("Order placed successfully!");
-            Console.ReadLine();
+            WaitForKeyPress();
         }
 
         static void ViewOrders(OrdersService orderService)
@@ -169,7 +155,7 @@ namespace TechShop
             {
                 Console.WriteLine($"Order ID: {order.OrderID}, Customer ID: {order.Customer.CustomerID}, Total Amount: {order.TotalAmount}, Status: {order.Status}");
             }
-            Console.ReadLine();
+            WaitForKeyPress();
         }
 
         static void AddInventory(InventoryService inventoryService)
@@ -187,7 +173,7 @@ namespace TechShop
             inventory.AddToInventory(quantity);
             inventoryService.AddInventory(inventory);
             Console.WriteLine("Inventory added successfully!");
-            Console.ReadLine();
+            WaitForKeyPress();
         }
 
         static void ViewInventory(InventoryService inventoryService)
@@ -197,7 +183,79 @@ namespace TechShop
             {
                 Console.WriteLine($"Product ID: {inventory.Product.ProductID}, Quantity In Stock: {inventory.QuantityInStock}");
             }
-            Console.ReadLine();
+            WaitForKeyPress();
+        }
+
+        static void GenerateSalesReport(ReportService reportService)
+        {
+            Console.Write("Enter Start Date (yyyy-MM-dd): ");
+            DateTime startDate = DateTime.Parse(Console.ReadLine());
+            Console.Write("Enter End Date (yyyy-MM-dd): ");
+            DateTime endDate = DateTime.Parse(Console.ReadLine());
+
+            reportService.GenerateSalesReport(startDate, endDate);
+            //reportService.GenerateProductSalesReport(startDate, endDate);
+            WaitForKeyPress();
+        }
+
+        static void UpdateCustomerInfo(CustomerService customerService)
+        {
+            Console.Write("Enter Customer ID to Update: ");
+            int customerId = int.Parse(Console.ReadLine());
+
+            Console.Write("Enter new Email: ");
+            string newEmail = Console.ReadLine();
+
+            Console.Write("Enter new Phone: ");
+            string newPhone = Console.ReadLine();
+
+            bool result = customerService.UpdateCustomerInfo(customerId, newEmail, newPhone);
+            Console.WriteLine(result ? "Customer updated successfully!" : "Customer update failed.");
+            WaitForKeyPress();
+        }
+
+        static void ProcessPayment(PaymentService paymentService)
+        {
+            Console.Write("Enter Order ID: ");
+            int orderId = int.Parse(Console.ReadLine());
+
+            Console.Write("Enter Payment Amount: ");
+            decimal amount = decimal.Parse(Console.ReadLine());
+
+            Console.Write("Enter Payment Method (e.g., Credit Card, UPI): ");
+            string method = Console.ReadLine();
+
+            var payment = new Payment
+            {
+                OrderID = orderId,
+                Amount = amount,
+                PaymentMethod = method,
+                PaymentDate = DateTime.Now
+            };
+
+            paymentService.ProcessPayment(payment);
+            Console.WriteLine("Payment recorded successfully!");
+            WaitForKeyPress();
+        }
+
+        static void SearchProducts(SearchService searchService)
+        {
+            Console.Write("Enter keyword to search: ");
+            string keyword = Console.ReadLine();
+
+            var results = searchService.SearchProducts(keyword);
+            Console.WriteLine("Search Results:");
+            foreach (var product in results)
+            {
+                Console.WriteLine($"ID: {product.ProductID}, Name: {product.ProductName}, Price: {product.Price}");
+            }
+            WaitForKeyPress();
+        }
+
+        static void WaitForKeyPress()
+        {
+            Console.WriteLine("Press any key to return to the main menu...");
+            Console.ReadKey();
         }
     }
 }

@@ -60,4 +60,49 @@ public class OrdersService
         }
         return orders;
     }
+
+    public DatabaseConnector GetDatabaseConnector()
+    {
+        return dbConnector;
+    }
+
+    public List<Orders> GetOrdersByDateRange(DateTime startDate, DateTime endDate, DatabaseConnector dbConnector)
+    {
+        var orders = new List<Orders>();
+
+        using (SqlConnection conn = dbConnector.GetConnection())
+        {
+            using (SqlCommand cmd = new SqlCommand("SELECT * FROM Orders WHERE OrderDate BETWEEN @Start AND @End", conn))
+            {
+                cmd.Parameters.AddWithValue("@Start", startDate);
+                cmd.Parameters.AddWithValue("@End", endDate);
+
+                // ✅ Make sure the connection is open
+                conn.Open();
+
+                using (SqlDataReader reader = cmd.ExecuteReader())
+                {
+                    while (reader.Read())
+                    {
+                        orders.Add(new Orders
+                        {
+                            OrderID = Convert.ToInt32(reader["OrderID"]),
+                            Customer = new Customers { CustomerID = Convert.ToInt32(reader["CustomerID"]) },
+                            OrderDate = Convert.ToDateTime(reader["OrderDate"]),
+                            TotalAmount = Convert.ToDecimal(reader["TotalAmount"]),
+                            Status = reader["Status"].ToString()
+                        });
+                    }
+                }
+            }
+        }
+
+        return orders;
+    }
+
+
+    internal IEnumerable<object> GetOrdersByDateRange(DateTime startDate, DateTime endDate)
+    {
+        throw new NotImplementedException();
+    }
 }

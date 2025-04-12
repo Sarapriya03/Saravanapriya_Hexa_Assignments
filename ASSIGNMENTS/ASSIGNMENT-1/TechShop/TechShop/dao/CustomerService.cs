@@ -84,5 +84,31 @@ namespace TechShop.dao
             }
             return customers;
         }
+        public bool UpdateCustomerInfo(int customerId, string newEmail, string newPhone)
+        {
+            try
+            {
+                using (SqlConnection conn = dbConnector.GetConnection())
+                {
+                    string query = "UPDATE Customers SET Email = @Email, Phone = @Phone WHERE CustomerID = @CustomerID";
+                    using (SqlCommand cmd = new SqlCommand(query, conn))
+                    {
+                        cmd.Parameters.AddWithValue("@Email", newEmail);
+                        cmd.Parameters.AddWithValue("@Phone", newPhone);
+                        cmd.Parameters.AddWithValue("@CustomerID", customerId);
+
+                        conn.Open();
+                        int rowsAffected = cmd.ExecuteNonQuery();
+
+                        return rowsAffected > 0;
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error updating customer info: {ex.Message}");
+                return false;
+            }
+        }
     }
 }

@@ -90,6 +90,11 @@ namespace TechShop.entity
         {
             throw new NotImplementedException();
         }
+
+        internal IEnumerable<object> GetOrderDetails()
+        {
+            throw new NotImplementedException();
+        }
     }
 
     // Custom Optimistic Concurrency Exception class

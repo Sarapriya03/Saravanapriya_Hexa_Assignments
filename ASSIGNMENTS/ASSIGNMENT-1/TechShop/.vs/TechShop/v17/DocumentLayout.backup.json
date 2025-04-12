@@ -3,112 +3,28 @@
   "WorkspaceRootPath": "E:\\Hexaware\\ASSIGNMENTS\\Saravanapriya_Hexa_Assignments\\ASSIGNMENTS\\ASSIGNMENT-1\\TechShop\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{063356A2-1B3E-4CEB-81A6-87018290836E}|TechShop\\TechShop.csproj|e:\\hexaware\\assignments\\saravanapriya_hexa_assignments\\assignments\\assignment-1\\techshop\\techshop\\dao\\ordersservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{063356A2-1B3E-4CEB-81A6-87018290836E}|TechShop\\TechShop.csproj|solutionrelative:techshop\\dao\\ordersservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{063356A2-1B3E-4CEB-81A6-87018290836E}|TechShop\\TechShop.csproj|e:\\hexaware\\assignments\\saravanapriya_hexa_assignments\\assignments\\assignment-1\\techshop\\techshop\\dao\\productsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{063356A2-1B3E-4CEB-81A6-87018290836E}|TechShop\\TechShop.csproj|solutionrelative:techshop\\dao\\productsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{063356A2-1B3E-4CEB-81A6-87018290836E}|TechShop\\TechShop.csproj|e:\\hexaware\\assignments\\saravanapriya_hexa_assignments\\assignments\\assignment-1\\techshop\\techshop\\main\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{063356A2-1B3E-4CEB-81A6-87018290836E}|TechShop\\TechShop.csproj|solutionrelative:techshop\\main\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{063356A2-1B3E-4CEB-81A6-87018290836E}|TechShop\\TechShop.csproj|e:\\hexaware\\assignments\\saravanapriya_hexa_assignments\\assignments\\assignment-1\\techshop\\techshop\\dao\\customerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{063356A2-1B3E-4CEB-81A6-87018290836E}|TechShop\\TechShop.csproj|solutionrelative:techshop\\dao\\customerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{063356A2-1B3E-4CEB-81A6-87018290836E}|TechShop\\TechShop.csproj|e:\\hexaware\\assignments\\saravanapriya_hexa_assignments\\assignments\\assignment-1\\techshop\\techshop\\entity\\products.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{063356A2-1B3E-4CEB-81A6-87018290836E}|TechShop\\TechShop.csproj|solutionrelative:techshop\\entity\\products.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{063356A2-1B3E-4CEB-81A6-87018290836E}|TechShop\\TechShop.csproj|e:\\hexaware\\assignments\\saravanapriya_hexa_assignments\\assignments\\assignment-1\\techshop\\techshop\\dao\\ordersservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{063356A2-1B3E-4CEB-81A6-87018290836E}|TechShop\\TechShop.csproj|solutionrelative:techshop\\dao\\ordersservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{063356A2-1B3E-4CEB-81A6-87018290836E}|TechShop\\TechShop.csproj|e:\\hexaware\\assignments\\saravanapriya_hexa_assignments\\assignments\\assignment-1\\techshop\\techshop\\main\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{063356A2-1B3E-4CEB-81A6-87018290836E}|TechShop\\TechShop.csproj|solutionrelative:techshop\\main\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{063356A2-1B3E-4CEB-81A6-87018290836E}|TechShop\\TechShop.csproj|e:\\hexaware\\assignments\\saravanapriya_hexa_assignments\\assignments\\assignment-1\\techshop\\techshop\\util\\databaseconnector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{063356A2-1B3E-4CEB-81A6-87018290836E}|TechShop\\TechShop.csproj|solutionrelative:techshop\\util\\databaseconnector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{063356A2-1B3E-4CEB-81A6-87018290836E}|TechShop\\TechShop.csproj|e:\\hexaware\\assignments\\saravanapriya_hexa_assignments\\assignments\\assignment-1\\techshop\\techshop\\util\\databaseconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{063356A2-1B3E-4CEB-81A6-87018290836E}|TechShop\\TechShop.csproj|solutionrelative:techshop\\util\\databaseconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{063356A2-1B3E-4CEB-81A6-87018290836E}|TechShop\\TechShop.csproj|e:\\hexaware\\assignments\\saravanapriya_hexa_assignments\\assignments\\assignment-1\\techshop\\techshop\\dao\\inventoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{063356A2-1B3E-4CEB-81A6-87018290836E}|TechShop\\TechShop.csproj|solutionrelative:techshop\\dao\\inventoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{063356A2-1B3E-4CEB-81A6-87018290836E}|TechShop\\TechShop.csproj|e:\\hexaware\\assignments\\saravanapriya_hexa_assignments\\assignments\\assignment-1\\techshop\\techshop\\entity\\inventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{063356A2-1B3E-4CEB-81A6-87018290836E}|TechShop\\TechShop.csproj|solutionrelative:techshop\\entity\\inventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{063356A2-1B3E-4CEB-81A6-87018290836E}|TechShop\\TechShop.csproj|e:\\hexaware\\assignments\\saravanapriya_hexa_assignments\\assignments\\assignment-1\\techshop\\techshop\\dao\\orderdetailsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{063356A2-1B3E-4CEB-81A6-87018290836E}|TechShop\\TechShop.csproj|solutionrelative:techshop\\dao\\orderdetailsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{063356A2-1B3E-4CEB-81A6-87018290836E}|TechShop\\TechShop.csproj|e:\\hexaware\\assignments\\saravanapriya_hexa_assignments\\assignments\\assignment-1\\techshop\\techshop\\dao\\reportgenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{063356A2-1B3E-4CEB-81A6-87018290836E}|TechShop\\TechShop.csproj|solutionrelative:techshop\\dao\\reportgenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{063356A2-1B3E-4CEB-81A6-87018290836E}|TechShop\\TechShop.csproj|e:\\hexaware\\assignments\\saravanapriya_hexa_assignments\\assignments\\assignment-1\\techshop\\techshop\\dao\\reportsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{063356A2-1B3E-4CEB-81A6-87018290836E}|TechShop\\TechShop.csproj|solutionrelative:techshop\\dao\\reportsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{063356A2-1B3E-4CEB-81A6-87018290836E}|TechShop\\TechShop.csproj|e:\\hexaware\\assignments\\saravanapriya_hexa_assignments\\assignments\\assignment-1\\techshop\\techshop\\dao\\productmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{063356A2-1B3E-4CEB-81A6-87018290836E}|TechShop\\TechShop.csproj|solutionrelative:techshop\\dao\\productmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{063356A2-1B3E-4CEB-81A6-87018290836E}|TechShop\\TechShop.csproj|e:\\hexaware\\assignments\\saravanapriya_hexa_assignments\\assignments\\assignment-1\\techshop\\techshop\\entity\\orders.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{063356A2-1B3E-4CEB-81A6-87018290836E}|TechShop\\TechShop.csproj|solutionrelative:techshop\\entity\\orders.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{063356A2-1B3E-4CEB-81A6-87018290836E}|TechShop\\TechShop.csproj|e:\\hexaware\\assignments\\saravanapriya_hexa_assignments\\assignments\\assignment-1\\techshop\\techshop\\techshop.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{063356A2-1B3E-4CEB-81A6-87018290836E}|TechShop\\TechShop.csproj|solutionrelative:techshop\\techshop.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{063356A2-1B3E-4CEB-81A6-87018290836E}|TechShop\\TechShop.csproj|e:\\hexaware\\assignments\\saravanapriya_hexa_assignments\\assignments\\assignment-1\\techshop\\techshop\\dao\\paymentmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{063356A2-1B3E-4CEB-81A6-87018290836E}|TechShop\\TechShop.csproj|solutionrelative:techshop\\dao\\paymentmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{063356A2-1B3E-4CEB-81A6-87018290836E}|TechShop\\TechShop.csproj|e:\\hexaware\\assignments\\saravanapriya_hexa_assignments\\assignments\\assignment-1\\techshop\\techshop\\dao\\paymentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{063356A2-1B3E-4CEB-81A6-87018290836E}|TechShop\\TechShop.csproj|solutionrelative:techshop\\dao\\paymentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{063356A2-1B3E-4CEB-81A6-87018290836E}|TechShop\\TechShop.csproj|e:\\hexaware\\assignments\\saravanapriya_hexa_assignments\\assignments\\assignment-1\\techshop\\techshop\\dao\\searchservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{063356A2-1B3E-4CEB-81A6-87018290836E}|TechShop\\TechShop.csproj|solutionrelative:techshop\\dao\\searchservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{063356A2-1B3E-4CEB-81A6-87018290836E}|TechShop\\TechShop.csproj|e:\\hexaware\\assignments\\saravanapriya_hexa_assignments\\assignments\\assignment-1\\techshop\\techshop\\dao\\ordermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{063356A2-1B3E-4CEB-81A6-87018290836E}|TechShop\\TechShop.csproj|solutionrelative:techshop\\dao\\ordermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{063356A2-1B3E-4CEB-81A6-87018290836E}|TechShop\\TechShop.csproj|e:\\hexaware\\assignments\\saravanapriya_hexa_assignments\\assignments\\assignment-1\\techshop\\techshop\\entity\\orderdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{063356A2-1B3E-4CEB-81A6-87018290836E}|TechShop\\TechShop.csproj|solutionrelative:techshop\\entity\\orderdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{063356A2-1B3E-4CEB-81A6-87018290836E}|TechShop\\TechShop.csproj|e:\\hexaware\\assignments\\saravanapriya_hexa_assignments\\assignments\\assignment-1\\techshop\\techshop\\entity\\customers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{063356A2-1B3E-4CEB-81A6-87018290836E}|TechShop\\TechShop.csproj|solutionrelative:techshop\\entity\\customers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{063356A2-1B3E-4CEB-81A6-87018290836E}|TechShop\\TechShop.csproj|e:\\hexaware\\assignments\\saravanapriya_hexa_assignments\\assignments\\assignment-1\\techshop\\techshop\\exception\\paymentfailedexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{063356A2-1B3E-4CEB-81A6-87018290836E}|TechShop\\TechShop.csproj|solutionrelative:techshop\\exception\\paymentfailedexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{063356A2-1B3E-4CEB-81A6-87018290836E}|TechShop\\TechShop.csproj|e:\\hexaware\\assignments\\saravanapriya_hexa_assignments\\assignments\\assignment-1\\techshop\\techshop\\exception\\optimisticconcurrencyexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{063356A2-1B3E-4CEB-81A6-87018290836E}|TechShop\\TechShop.csproj|solutionrelative:techshop\\exception\\optimisticconcurrencyexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{063356A2-1B3E-4CEB-81A6-87018290836E}|TechShop\\TechShop.csproj|e:\\hexaware\\assignments\\saravanapriya_hexa_assignments\\assignments\\assignment-1\\techshop\\techshop\\exception\\invaliddataexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{063356A2-1B3E-4CEB-81A6-87018290836E}|TechShop\\TechShop.csproj|solutionrelative:techshop\\exception\\invaliddataexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{063356A2-1B3E-4CEB-81A6-87018290836E}|TechShop\\TechShop.csproj|e:\\hexaware\\assignments\\saravanapriya_hexa_assignments\\assignments\\assignment-1\\techshop\\techshop\\exception\\insufficientstockexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{063356A2-1B3E-4CEB-81A6-87018290836E}|TechShop\\TechShop.csproj|solutionrelative:techshop\\exception\\insufficientstockexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{063356A2-1B3E-4CEB-81A6-87018290836E}|TechShop\\TechShop.csproj|e:\\hexaware\\assignments\\saravanapriya_hexa_assignments\\assignments\\assignment-1\\techshop\\techshop\\exception\\incompleteorderexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{063356A2-1B3E-4CEB-81A6-87018290836E}|TechShop\\TechShop.csproj|solutionrelative:techshop\\exception\\incompleteorderexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{063356A2-1B3E-4CEB-81A6-87018290836E}|TechShop\\TechShop.csproj|e:\\hexaware\\assignments\\saravanapriya_hexa_assignments\\assignments\\assignment-1\\techshop\\techshop\\exception\\authenticationexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{063356A2-1B3E-4CEB-81A6-87018290836E}|TechShop\\TechShop.csproj|solutionrelative:techshop\\exception\\authenticationexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{063356A2-1B3E-4CEB-81A6-87018290836E}|TechShop\\TechShop.csproj|e:\\hexaware\\assignments\\saravanapriya_hexa_assignments\\assignments\\assignment-1\\techshop\\techshop\\exception\\authorizationexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{063356A2-1B3E-4CEB-81A6-87018290836E}|TechShop\\TechShop.csproj|solutionrelative:techshop\\exception\\authorizationexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{063356A2-1B3E-4CEB-81A6-87018290836E}|TechShop\\TechShop.csproj|e:\\hexaware\\assignments\\saravanapriya_hexa_assignments\\assignments\\assignment-1\\techshop\\techshop\\dao\\reportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{063356A2-1B3E-4CEB-81A6-87018290836E}|TechShop\\TechShop.csproj|solutionrelative:techshop\\dao\\reportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -118,108 +34,69 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "DatabaseConnector.cs",
-              "DocumentMoniker": "E:\\Hexaware\\ASSIGNMENTS\\Saravanapriya_Hexa_Assignments\\ASSIGNMENTS\\ASSIGNMENT-1\\TechShop\\TechShop\\util\\DatabaseConnector.cs",
-              "RelativeDocumentMoniker": "TechShop\\util\\DatabaseConnector.cs",
-              "ToolTip": "E:\\Hexaware\\ASSIGNMENTS\\Saravanapriya_Hexa_Assignments\\ASSIGNMENTS\\ASSIGNMENT-1\\TechShop\\TechShop\\util\\DatabaseConnector.cs",
-              "RelativeToolTip": "TechShop\\util\\DatabaseConnector.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-12T07:10:14.56Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "ProductsService.cs",
-              "DocumentMoniker": "E:\\Hexaware\\ASSIGNMENTS\\Saravanapriya_Hexa_Assignments\\ASSIGNMENTS\\ASSIGNMENT-1\\TechShop\\TechShop\\dao\\ProductsService.cs",
-              "RelativeDocumentMoniker": "TechShop\\dao\\ProductsService.cs",
-              "ToolTip": "E:\\Hexaware\\ASSIGNMENTS\\Saravanapriya_Hexa_Assignments\\ASSIGNMENTS\\ASSIGNMENT-1\\TechShop\\TechShop\\dao\\ProductsService.cs",
-              "RelativeToolTip": "TechShop\\dao\\ProductsService.cs",
-              "ViewState": "AgIAACwAAAAAAAAAAAAiwDgAAABPAAAAAAAAAA==",
+              "Title": "CustomerService.cs",
+              "DocumentMoniker": "E:\\Hexaware\\ASSIGNMENTS\\Saravanapriya_Hexa_Assignments\\ASSIGNMENTS\\ASSIGNMENT-1\\TechShop\\TechShop\\dao\\CustomerService.cs",
+              "RelativeDocumentMoniker": "TechShop\\dao\\CustomerService.cs",
+              "ToolTip": "E:\\Hexaware\\ASSIGNMENTS\\Saravanapriya_Hexa_Assignments\\ASSIGNMENTS\\ASSIGNMENT-1\\TechShop\\TechShop\\dao\\CustomerService.cs*",
+              "RelativeToolTip": "TechShop\\dao\\CustomerService.cs*",
+              "ViewState": "AgIAAGEAAAAAAAAAAAAYwHEAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-12T07:13:03.286Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "OrderDetailsService.cs",
-              "DocumentMoniker": "E:\\Hexaware\\ASSIGNMENTS\\Saravanapriya_Hexa_Assignments\\ASSIGNMENTS\\ASSIGNMENT-1\\TechShop\\TechShop\\dao\\OrderDetailsService.cs",
-              "RelativeDocumentMoniker": "TechShop\\dao\\OrderDetailsService.cs",
-              "ToolTip": "E:\\Hexaware\\ASSIGNMENTS\\Saravanapriya_Hexa_Assignments\\ASSIGNMENTS\\ASSIGNMENT-1\\TechShop\\TechShop\\dao\\OrderDetailsService.cs",
-              "RelativeToolTip": "TechShop\\dao\\OrderDetailsService.cs",
-              "ViewState": "AgIAACsAAAAAAAAAAAD4vzsAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-12T07:29:45.347Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "OrdersService.cs",
-              "DocumentMoniker": "E:\\Hexaware\\ASSIGNMENTS\\Saravanapriya_Hexa_Assignments\\ASSIGNMENTS\\ASSIGNMENT-1\\TechShop\\TechShop\\dao\\OrdersService.cs",
-              "RelativeDocumentMoniker": "TechShop\\dao\\OrdersService.cs",
-              "ToolTip": "E:\\Hexaware\\ASSIGNMENTS\\Saravanapriya_Hexa_Assignments\\ASSIGNMENTS\\ASSIGNMENT-1\\TechShop\\TechShop\\dao\\OrdersService.cs*",
-              "RelativeToolTip": "TechShop\\dao\\OrdersService.cs*",
-              "ViewState": "AgIAACgAAAAAAAAAAAAuwDkAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-12T07:13:28.747Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "InventoryService.cs",
-              "DocumentMoniker": "E:\\Hexaware\\ASSIGNMENTS\\Saravanapriya_Hexa_Assignments\\ASSIGNMENTS\\ASSIGNMENT-1\\TechShop\\TechShop\\dao\\InventoryService.cs",
-              "RelativeDocumentMoniker": "TechShop\\dao\\InventoryService.cs",
-              "ToolTip": "E:\\Hexaware\\ASSIGNMENTS\\Saravanapriya_Hexa_Assignments\\ASSIGNMENTS\\ASSIGNMENT-1\\TechShop\\TechShop\\dao\\InventoryService.cs",
-              "RelativeToolTip": "TechShop\\dao\\InventoryService.cs",
-              "ViewState": "AgIAAC4AAAAAAAAAAIAywEAAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-12T07:13:47.778Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Inventory.cs",
-              "DocumentMoniker": "E:\\Hexaware\\ASSIGNMENTS\\Saravanapriya_Hexa_Assignments\\ASSIGNMENTS\\ASSIGNMENT-1\\TechShop\\TechShop\\entity\\Inventory.cs",
-              "RelativeDocumentMoniker": "TechShop\\entity\\Inventory.cs",
-              "ToolTip": "E:\\Hexaware\\ASSIGNMENTS\\Saravanapriya_Hexa_Assignments\\ASSIGNMENTS\\ASSIGNMENT-1\\TechShop\\TechShop\\entity\\Inventory.cs",
-              "RelativeToolTip": "TechShop\\entity\\Inventory.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAxAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-12T03:48:10.718Z",
+              "WhenOpened": "2025-04-12T13:33:55.703Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "CustomerService.cs",
-              "DocumentMoniker": "E:\\Hexaware\\ASSIGNMENTS\\Saravanapriya_Hexa_Assignments\\ASSIGNMENTS\\ASSIGNMENT-1\\TechShop\\TechShop\\dao\\CustomerService.cs",
-              "RelativeDocumentMoniker": "TechShop\\dao\\CustomerService.cs",
-              "ToolTip": "E:\\Hexaware\\ASSIGNMENTS\\Saravanapriya_Hexa_Assignments\\ASSIGNMENTS\\ASSIGNMENT-1\\TechShop\\TechShop\\dao\\CustomerService.cs",
-              "RelativeToolTip": "TechShop\\dao\\CustomerService.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAAACcAAAAAAAAAAAAAAA==",
+              "Title": "OrdersService.cs",
+              "DocumentMoniker": "E:\\Hexaware\\ASSIGNMENTS\\Saravanapriya_Hexa_Assignments\\ASSIGNMENTS\\ASSIGNMENT-1\\TechShop\\TechShop\\dao\\OrdersService.cs",
+              "RelativeDocumentMoniker": "TechShop\\dao\\OrdersService.cs",
+              "ToolTip": "E:\\Hexaware\\ASSIGNMENTS\\Saravanapriya_Hexa_Assignments\\ASSIGNMENTS\\ASSIGNMENT-1\\TechShop\\TechShop\\dao\\OrdersService.cs",
+              "RelativeToolTip": "TechShop\\dao\\OrdersService.cs",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAzwE0AAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-12T07:12:36.446Z",
+              "WhenOpened": "2025-04-12T13:15:01.754Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "SearchService.cs",
+              "DocumentMoniker": "E:\\Hexaware\\ASSIGNMENTS\\Saravanapriya_Hexa_Assignments\\ASSIGNMENTS\\ASSIGNMENT-1\\TechShop\\TechShop\\dao\\SearchService.cs",
+              "RelativeDocumentMoniker": "TechShop\\dao\\SearchService.cs",
+              "ToolTip": "E:\\Hexaware\\ASSIGNMENTS\\Saravanapriya_Hexa_Assignments\\ASSIGNMENTS\\ASSIGNMENT-1\\TechShop\\TechShop\\dao\\SearchService.cs",
+              "RelativeToolTip": "TechShop\\dao\\SearchService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAACCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-12T13:06:00.344Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ReportService.cs",
+              "DocumentMoniker": "E:\\Hexaware\\ASSIGNMENTS\\Saravanapriya_Hexa_Assignments\\ASSIGNMENTS\\ASSIGNMENT-1\\TechShop\\TechShop\\dao\\ReportService.cs",
+              "RelativeDocumentMoniker": "TechShop\\dao\\ReportService.cs",
+              "ToolTip": "E:\\Hexaware\\ASSIGNMENTS\\Saravanapriya_Hexa_Assignments\\ASSIGNMENTS\\ASSIGNMENT-1\\TechShop\\TechShop\\dao\\ReportService.cs",
+              "RelativeToolTip": "TechShop\\dao\\ReportService.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAUwDIAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-12T11:07:48.671Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "E:\\Hexaware\\ASSIGNMENTS\\Saravanapriya_Hexa_Assignments\\ASSIGNMENTS\\ASSIGNMENT-1\\TechShop\\TechShop\\main\\Program.cs",
               "RelativeDocumentMoniker": "TechShop\\main\\Program.cs",
               "ToolTip": "E:\\Hexaware\\ASSIGNMENTS\\Saravanapriya_Hexa_Assignments\\ASSIGNMENTS\\ASSIGNMENT-1\\TechShop\\TechShop\\main\\Program.cs",
               "RelativeToolTip": "TechShop\\main\\Program.cs",
-              "ViewState": "AgIAAKwAAAAAAAAAAAAwwMMAAAAyAAAAAAAAAA==",
+              "ViewState": "AgIAAIkAAAAAAAAAAAAowMQAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-12T03:40:32.826Z",
               "EditorCaption": ""
@@ -227,248 +104,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Products.cs",
-              "DocumentMoniker": "E:\\Hexaware\\ASSIGNMENTS\\Saravanapriya_Hexa_Assignments\\ASSIGNMENTS\\ASSIGNMENT-1\\TechShop\\TechShop\\entity\\Products.cs",
-              "RelativeDocumentMoniker": "TechShop\\entity\\Products.cs",
-              "ToolTip": "E:\\Hexaware\\ASSIGNMENTS\\Saravanapriya_Hexa_Assignments\\ASSIGNMENTS\\ASSIGNMENT-1\\TechShop\\TechShop\\entity\\Products.cs",
-              "RelativeToolTip": "TechShop\\entity\\Products.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAcAAAAAAAAAA==",
+              "Title": "PaymentService.cs",
+              "DocumentMoniker": "E:\\Hexaware\\ASSIGNMENTS\\Saravanapriya_Hexa_Assignments\\ASSIGNMENTS\\ASSIGNMENT-1\\TechShop\\TechShop\\dao\\PaymentService.cs",
+              "RelativeDocumentMoniker": "TechShop\\dao\\PaymentService.cs",
+              "ToolTip": "E:\\Hexaware\\ASSIGNMENTS\\Saravanapriya_Hexa_Assignments\\ASSIGNMENTS\\ASSIGNMENT-1\\TechShop\\TechShop\\dao\\PaymentService.cs",
+              "RelativeToolTip": "TechShop\\dao\\PaymentService.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAYwB4AAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-12T03:47:19.865Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "DatabaseConfig.cs",
-              "DocumentMoniker": "E:\\Hexaware\\ASSIGNMENTS\\Saravanapriya_Hexa_Assignments\\ASSIGNMENTS\\ASSIGNMENT-1\\TechShop\\TechShop\\util\\DatabaseConfig.cs",
-              "RelativeDocumentMoniker": "TechShop\\util\\DatabaseConfig.cs",
-              "ToolTip": "E:\\Hexaware\\ASSIGNMENTS\\Saravanapriya_Hexa_Assignments\\ASSIGNMENTS\\ASSIGNMENT-1\\TechShop\\TechShop\\util\\DatabaseConfig.cs",
-              "RelativeToolTip": "TechShop\\util\\DatabaseConfig.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-12T10:02:41.908Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "ReportGenerator.cs",
-              "DocumentMoniker": "E:\\Hexaware\\ASSIGNMENTS\\Saravanapriya_Hexa_Assignments\\ASSIGNMENTS\\ASSIGNMENT-1\\TechShop\\TechShop\\dao\\ReportGenerator.cs",
-              "RelativeDocumentMoniker": "TechShop\\dao\\ReportGenerator.cs",
-              "ToolTip": "E:\\Hexaware\\ASSIGNMENTS\\Saravanapriya_Hexa_Assignments\\ASSIGNMENTS\\ASSIGNMENT-1\\TechShop\\TechShop\\dao\\ReportGenerator.cs",
-              "RelativeToolTip": "TechShop\\dao\\ReportGenerator.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAYwBAAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-12T07:06:38.965Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "ReportsService.cs",
-              "DocumentMoniker": "E:\\Hexaware\\ASSIGNMENTS\\Saravanapriya_Hexa_Assignments\\ASSIGNMENTS\\ASSIGNMENT-1\\TechShop\\TechShop\\dao\\ReportsService.cs",
-              "RelativeDocumentMoniker": "TechShop\\dao\\ReportsService.cs",
-              "ToolTip": "E:\\Hexaware\\ASSIGNMENTS\\Saravanapriya_Hexa_Assignments\\ASSIGNMENTS\\ASSIGNMENT-1\\TechShop\\TechShop\\dao\\ReportsService.cs",
-              "RelativeToolTip": "TechShop\\dao\\ReportsService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-12T07:14:36.55Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "ProductManager.cs",
-              "DocumentMoniker": "E:\\Hexaware\\ASSIGNMENTS\\Saravanapriya_Hexa_Assignments\\ASSIGNMENTS\\ASSIGNMENT-1\\TechShop\\TechShop\\dao\\ProductManager.cs",
-              "RelativeDocumentMoniker": "TechShop\\dao\\ProductManager.cs",
-              "ToolTip": "E:\\Hexaware\\ASSIGNMENTS\\Saravanapriya_Hexa_Assignments\\ASSIGNMENTS\\ASSIGNMENT-1\\TechShop\\TechShop\\dao\\ProductManager.cs",
-              "RelativeToolTip": "TechShop\\dao\\ProductManager.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-12T07:02:05.09Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Orders.cs",
-              "DocumentMoniker": "E:\\Hexaware\\ASSIGNMENTS\\Saravanapriya_Hexa_Assignments\\ASSIGNMENTS\\ASSIGNMENT-1\\TechShop\\TechShop\\entity\\Orders.cs",
-              "RelativeDocumentMoniker": "TechShop\\entity\\Orders.cs",
-              "ToolTip": "E:\\Hexaware\\ASSIGNMENTS\\Saravanapriya_Hexa_Assignments\\ASSIGNMENTS\\ASSIGNMENT-1\\TechShop\\TechShop\\entity\\Orders.cs",
-              "RelativeToolTip": "TechShop\\entity\\Orders.cs",
-              "ViewState": "AgIAAFkAAAAAAAAAAAApwGoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-12T03:47:37.27Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "TechShop",
-              "DocumentMoniker": "E:\\Hexaware\\ASSIGNMENTS\\Saravanapriya_Hexa_Assignments\\ASSIGNMENTS\\ASSIGNMENT-1\\TechShop\\TechShop\\TechShop.csproj",
-              "RelativeDocumentMoniker": "TechShop\\TechShop.csproj",
-              "ToolTip": "E:\\Hexaware\\ASSIGNMENTS\\Saravanapriya_Hexa_Assignments\\ASSIGNMENTS\\ASSIGNMENT-1\\TechShop\\TechShop\\TechShop.csproj",
-              "RelativeToolTip": "TechShop\\TechShop.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-04-12T07:21:41.495Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "SearchService.cs",
-              "DocumentMoniker": "E:\\Hexaware\\ASSIGNMENTS\\Saravanapriya_Hexa_Assignments\\ASSIGNMENTS\\ASSIGNMENT-1\\TechShop\\TechShop\\dao\\SearchService.cs",
-              "RelativeDocumentMoniker": "TechShop\\dao\\SearchService.cs",
-              "ToolTip": "E:\\Hexaware\\ASSIGNMENTS\\Saravanapriya_Hexa_Assignments\\ASSIGNMENTS\\ASSIGNMENT-1\\TechShop\\TechShop\\dao\\SearchService.cs",
-              "RelativeToolTip": "TechShop\\dao\\SearchService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-12T07:15:04.137Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "PaymentManager.cs",
-              "DocumentMoniker": "E:\\Hexaware\\ASSIGNMENTS\\Saravanapriya_Hexa_Assignments\\ASSIGNMENTS\\ASSIGNMENT-1\\TechShop\\TechShop\\dao\\PaymentManager.cs",
-              "RelativeDocumentMoniker": "TechShop\\dao\\PaymentManager.cs",
-              "ToolTip": "E:\\Hexaware\\ASSIGNMENTS\\Saravanapriya_Hexa_Assignments\\ASSIGNMENTS\\ASSIGNMENT-1\\TechShop\\TechShop\\dao\\PaymentManager.cs",
-              "RelativeToolTip": "TechShop\\dao\\PaymentManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-12T07:01:14.541Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "OrderManager.cs",
-              "DocumentMoniker": "E:\\Hexaware\\ASSIGNMENTS\\Saravanapriya_Hexa_Assignments\\ASSIGNMENTS\\ASSIGNMENT-1\\TechShop\\TechShop\\dao\\OrderManager.cs",
-              "RelativeDocumentMoniker": "TechShop\\dao\\OrderManager.cs",
-              "ToolTip": "E:\\Hexaware\\ASSIGNMENTS\\Saravanapriya_Hexa_Assignments\\ASSIGNMENTS\\ASSIGNMENT-1\\TechShop\\TechShop\\dao\\OrderManager.cs",
-              "RelativeToolTip": "TechShop\\dao\\OrderManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-12T07:00:21.375Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "Customers.cs",
-              "DocumentMoniker": "E:\\Hexaware\\ASSIGNMENTS\\Saravanapriya_Hexa_Assignments\\ASSIGNMENTS\\ASSIGNMENT-1\\TechShop\\TechShop\\entity\\Customers.cs",
-              "RelativeDocumentMoniker": "TechShop\\entity\\Customers.cs",
-              "ToolTip": "E:\\Hexaware\\ASSIGNMENTS\\Saravanapriya_Hexa_Assignments\\ASSIGNMENTS\\ASSIGNMENT-1\\TechShop\\TechShop\\entity\\Customers.cs",
-              "RelativeToolTip": "TechShop\\entity\\Customers.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAAYwDAAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-12T03:46:47.952Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "OrderDetails.cs",
-              "DocumentMoniker": "E:\\Hexaware\\ASSIGNMENTS\\Saravanapriya_Hexa_Assignments\\ASSIGNMENTS\\ASSIGNMENT-1\\TechShop\\TechShop\\entity\\OrderDetails.cs",
-              "RelativeDocumentMoniker": "TechShop\\entity\\OrderDetails.cs",
-              "ToolTip": "E:\\Hexaware\\ASSIGNMENTS\\Saravanapriya_Hexa_Assignments\\ASSIGNMENTS\\ASSIGNMENT-1\\TechShop\\TechShop\\entity\\OrderDetails.cs",
-              "RelativeToolTip": "TechShop\\entity\\OrderDetails.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-12T03:47:55.851Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "PaymentFailedException.cs",
-              "DocumentMoniker": "E:\\Hexaware\\ASSIGNMENTS\\Saravanapriya_Hexa_Assignments\\ASSIGNMENTS\\ASSIGNMENT-1\\TechShop\\TechShop\\exception\\PaymentFailedException.cs",
-              "RelativeDocumentMoniker": "TechShop\\exception\\PaymentFailedException.cs",
-              "ToolTip": "E:\\Hexaware\\ASSIGNMENTS\\Saravanapriya_Hexa_Assignments\\ASSIGNMENTS\\ASSIGNMENT-1\\TechShop\\TechShop\\exception\\PaymentFailedException.cs",
-              "RelativeToolTip": "TechShop\\exception\\PaymentFailedException.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-12T05:55:53.638Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "OptimisticConcurrencyException.cs",
-              "DocumentMoniker": "E:\\Hexaware\\ASSIGNMENTS\\Saravanapriya_Hexa_Assignments\\ASSIGNMENTS\\ASSIGNMENT-1\\TechShop\\TechShop\\exception\\OptimisticConcurrencyException.cs",
-              "RelativeDocumentMoniker": "TechShop\\exception\\OptimisticConcurrencyException.cs",
-              "ToolTip": "E:\\Hexaware\\ASSIGNMENTS\\Saravanapriya_Hexa_Assignments\\ASSIGNMENTS\\ASSIGNMENT-1\\TechShop\\TechShop\\exception\\OptimisticConcurrencyException.cs",
-              "RelativeToolTip": "TechShop\\exception\\OptimisticConcurrencyException.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-12T05:56:22.532Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "InvalidDataException.cs",
-              "DocumentMoniker": "E:\\Hexaware\\ASSIGNMENTS\\Saravanapriya_Hexa_Assignments\\ASSIGNMENTS\\ASSIGNMENT-1\\TechShop\\TechShop\\exception\\InvalidDataException.cs",
-              "RelativeDocumentMoniker": "TechShop\\exception\\InvalidDataException.cs",
-              "ToolTip": "E:\\Hexaware\\ASSIGNMENTS\\Saravanapriya_Hexa_Assignments\\ASSIGNMENTS\\ASSIGNMENT-1\\TechShop\\TechShop\\exception\\InvalidDataException.cs",
-              "RelativeToolTip": "TechShop\\exception\\InvalidDataException.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-12T05:54:47.141Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "InsufficientStockException.cs",
-              "DocumentMoniker": "E:\\Hexaware\\ASSIGNMENTS\\Saravanapriya_Hexa_Assignments\\ASSIGNMENTS\\ASSIGNMENT-1\\TechShop\\TechShop\\exception\\InsufficientStockException.cs",
-              "RelativeDocumentMoniker": "TechShop\\exception\\InsufficientStockException.cs",
-              "ToolTip": "E:\\Hexaware\\ASSIGNMENTS\\Saravanapriya_Hexa_Assignments\\ASSIGNMENTS\\ASSIGNMENT-1\\TechShop\\TechShop\\exception\\InsufficientStockException.cs",
-              "RelativeToolTip": "TechShop\\exception\\InsufficientStockException.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-12T05:55:12.485Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "IncompleteOrderException.cs",
-              "DocumentMoniker": "E:\\Hexaware\\ASSIGNMENTS\\Saravanapriya_Hexa_Assignments\\ASSIGNMENTS\\ASSIGNMENT-1\\TechShop\\TechShop\\exception\\IncompleteOrderException.cs",
-              "RelativeDocumentMoniker": "TechShop\\exception\\IncompleteOrderException.cs",
-              "ToolTip": "E:\\Hexaware\\ASSIGNMENTS\\Saravanapriya_Hexa_Assignments\\ASSIGNMENTS\\ASSIGNMENT-1\\TechShop\\TechShop\\exception\\IncompleteOrderException.cs",
-              "RelativeToolTip": "TechShop\\exception\\IncompleteOrderException.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-12T05:55:32.633Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "AuthenticationException.cs",
-              "DocumentMoniker": "E:\\Hexaware\\ASSIGNMENTS\\Saravanapriya_Hexa_Assignments\\ASSIGNMENTS\\ASSIGNMENT-1\\TechShop\\TechShop\\exception\\AuthenticationException.cs",
-              "RelativeDocumentMoniker": "TechShop\\exception\\AuthenticationException.cs",
-              "ToolTip": "E:\\Hexaware\\ASSIGNMENTS\\Saravanapriya_Hexa_Assignments\\ASSIGNMENTS\\ASSIGNMENT-1\\TechShop\\TechShop\\exception\\AuthenticationException.cs",
-              "RelativeToolTip": "TechShop\\exception\\AuthenticationException.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAALAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-12T05:56:40.866Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "Authorizationexception.cs",
-              "DocumentMoniker": "E:\\Hexaware\\ASSIGNMENTS\\Saravanapriya_Hexa_Assignments\\ASSIGNMENTS\\ASSIGNMENT-1\\TechShop\\TechShop\\exception\\Authorizationexception.cs",
-              "RelativeDocumentMoniker": "TechShop\\exception\\Authorizationexception.cs",
-              "ToolTip": "E:\\Hexaware\\ASSIGNMENTS\\Saravanapriya_Hexa_Assignments\\ASSIGNMENTS\\ASSIGNMENT-1\\TechShop\\TechShop\\exception\\Authorizationexception.cs",
-              "RelativeToolTip": "TechShop\\exception\\Authorizationexception.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-12T05:57:01.177Z",
+              "WhenOpened": "2025-04-12T13:09:33.567Z",
               "EditorCaption": ""
             }
           ]
