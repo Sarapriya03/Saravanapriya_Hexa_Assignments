@@ -15,6 +15,8 @@ namespace Main
         private static readonly ICourierAdminService _adminService;
         private static readonly CourierServiceDb _dbService;
 
+        public static int CourierID { get; private set; }
+
         static Program()
         {
             var company = new CourierCompanyCollection(
@@ -89,61 +91,73 @@ namespace Main
 
         private static void PlaceOrder()
         {
-            Console.Write("Enter User ID: ");
-            if (!int.TryParse(Console.ReadLine(), out int userId) || userId <= 0)
-                throw new ArgumentException("Invalid User ID.");
-
-            Console.Write("Enter Sender Name: ");
-            string senderName = Console.ReadLine();
-            if (string.IsNullOrWhiteSpace(senderName))
-                throw new ArgumentException("Sender Name is required.");
-
-            Console.Write("Enter Sender Address: ");
-            string senderAddress = Console.ReadLine();
-            if (string.IsNullOrWhiteSpace(senderAddress))
-                throw new ArgumentException("Sender Address is required.");
-
-            Console.Write("Enter Receiver Name: ");
-            string receiverName = Console.ReadLine();
-            if (string.IsNullOrWhiteSpace(receiverName))
-                throw new ArgumentException("Receiver Name is required.");
-
-            Console.Write("Enter Receiver Address: ");
-            string receiverAddress = Console.ReadLine();
-            if (string.IsNullOrWhiteSpace(receiverAddress))
-                throw new ArgumentException("Receiver Address is required.");
-
-            Console.Write("Enter Weight: ");
-            if (!decimal.TryParse(Console.ReadLine(), out decimal weight) || weight <= 0)
-                throw new ArgumentException("Invalid Weight.");
-
-            var courier = new Courier
-            {
-                CourierID = (int)(DateTime.Now.Ticks % 1000000), // Explicitly cast 'long' to 'int'  
-                SenderName = senderName,
-                SenderAddress = senderAddress,
-                ReceiverName = receiverName,
-                ReceiverAddress = receiverAddress,
-                Weight = (decimal)weight,
-                Status = "Processing",
-                TrackingNumber = "TRK" + DateTime.Now.Ticks % 1000000,
-                DeliveryDate = null,
-                UserId = userId
-            };
-
-            // Generate TrackingNumber separately since the property is read-only  
             try
             {
-                string trackingNumber = _userService.PlaceOrder(courier); // Update in-memory
-                _dbService.InsertCourier(courier); // Persist to database
-                Console.WriteLine($"Order placed. Tracking Number: {trackingNumber}");
+                Console.Write("Enter Courier ID: ");
+                if (!int.TryParse(Console.ReadLine(), out int courierId) || courierId <= 0)
+                    throw new ArgumentException("Invalid Courier ID.");
+
+                Console.Write("Enter Sender Name: ");
+                string senderName = Console.ReadLine();
+                if (string.IsNullOrWhiteSpace(senderName))
+                    throw new ArgumentException("Sender Name is required.");
+
+                Console.Write("Enter Sender Address: ");
+                string senderAddress = Console.ReadLine();
+                if (string.IsNullOrWhiteSpace(senderAddress))
+                    throw new ArgumentException("Sender Address is required.");
+
+                Console.Write("Enter Receiver Name: ");
+                string receiverName = Console.ReadLine();
+                if (string.IsNullOrWhiteSpace(receiverName))
+                    throw new ArgumentException("Receiver Name is required.");
+
+                Console.Write("Enter Receiver Address: ");
+                string receiverAddress = Console.ReadLine();
+                if (string.IsNullOrWhiteSpace(receiverAddress))
+                    throw new ArgumentException("Receiver Address is required.");
+
+                Console.Write("Enter Weight: ");
+                if (!decimal.TryParse(Console.ReadLine(), out decimal weight) || weight <= 0)
+                    throw new ArgumentException("Invalid Weight.");
+
+                // Generate tracking number before order
+                string trackingNumber = "TRK" + DateTime.Now.Ticks % 1000000;
+
+                // Create and populate courier object
+                var courier = new Courier
+                {
+                    CourierID = courierId,
+                    SenderName = senderName,
+                    SenderAddress = senderAddress,
+                    ReceiverName = receiverName,
+                    ReceiverAddress = receiverAddress,
+                    Weight = weight,
+                    Status = "Processing",
+                    TrackingNumber = trackingNumber,
+                    DeliveryDate = null,
+                    UserId = null // Optional: set this if user handling is implemented
+                };
+
+                // Call user service and DB service
+                _userService.PlaceOrder(courier);       // In-memory (e.g., collection)
+                _dbService.InsertCourier(courier);      // Persist to DB
+
+                Console.WriteLine($"Order placed successfully! Tracking Number: {trackingNumber}");
+            }
+            catch (ArgumentException ex)
+            {
+                Console.WriteLine($"Input Error: {ex.Message}");
+            }
+            catch (NullReferenceException ex)
+            {
+                Console.WriteLine($"Initialization Error: {ex.Message}");
             }
             catch (Exception ex)
             {
-                Console.WriteLine($"Error: {ex.Message}");
+                Console.WriteLine($"Unexpected Error: {ex.Message}");
             }
         }
-
         private static void CheckOrderStatus()
         {
             Console.Write("Enter Tracking Number: ");

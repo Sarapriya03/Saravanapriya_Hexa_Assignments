@@ -17,6 +17,10 @@ namespace CourierManagementSystem.Entity
         private List<Employee> _employeeDetails;
         private List<Location> _locationDetails;
         private CourierCompanyCollection companyObj;
+        private string v;
+        private List<Courier> couriers;
+        private List<Employee> employees;
+        private List<Location> locations;
 
         public CourierCompanyCollection()
         {
@@ -31,8 +35,16 @@ namespace CourierManagementSystem.Entity
             this.companyObj = companyObj;
         }
 
+        public CourierCompanyCollection(string v, List<Courier> couriers, List<Employee> employees, List<Location> locations)
+        {
+            this.v = v;
+            this.couriers = couriers;
+            this.employees = employees;
+            this.locations = locations;
+        }
+
         public CourierCompanyCollection(string companyName, List<Courier> courierDetails,
-            List<Employee> employeeDetails, List<Location> locationDetails)
+            List<Employee> employeeDetails, List<User> users, List<Location> locationDetails)
         {
             _companyName = companyName ?? throw new ArgumentNullException(nameof(companyName));
             _courierDetails = courierDetails ?? new List<Courier>();
